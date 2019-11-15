@@ -1,0 +1,39 @@
+{
+  "name": "react-desktop-only",
+  "version": "1.0.0",
+  "description": "A react component that will only display its children on desktop resolutions",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukem512/react-desktop-only.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "desktop",
+    "hoc",
+    "css"
+  ],
+  "author": "Luke Mitchell <hi@lukemitchell.co>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.3.10"
+  }
+}
