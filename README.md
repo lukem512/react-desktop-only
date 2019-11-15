@@ -2,11 +2,7 @@
 A react component that will only display its children on desktop resolutions.
 
 ## Installation
-The `react-desktop-only` package is available from NPM via `yarn` or the `npm` CLI.
-
-```
-npm i --save react-desktop-only
-```
+The `react-desktop-only` package is not yet available from NPM.
 
 ## Usage
 The component can be used by wrapping child components to restrict their display to desktop devices.
